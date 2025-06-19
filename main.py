@@ -1,12 +1,13 @@
 import requests
 
+
 class CurrencyConverter():
     def __init__(self):
         self.amount = 0
         self.from_currency = ""
         self.to_currency = ""
         # App Start
-        print("> [amount] [from_currency_type] [to_currency_type]")
+        print("> [amount] [from-currency-type] [to-currency-type]")
         self.user_input = input()
         self.input_processor()
 
@@ -34,6 +35,7 @@ class CurrencyConverter():
                 print("ERROR: Incorrect data types.")
         else:
             print("ERROR: Incorrect amount of arguments.")
+
 
 if __name__ == "__main__":
     app = CurrencyConverter()
