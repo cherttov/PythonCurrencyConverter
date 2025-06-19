@@ -1,1 +1,2 @@
-Not much I can say, thx to jsdelivr for API.
+
+API: [jsdelivr](https://www.jsdelivr.com)
