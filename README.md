@@ -1,2 +1,2 @@
 
-API: [jsdelivr](https://www.jsdelivr.com)
+API: [fawazahmed0](https://github.com/fawazahmed0/exchange-api)
