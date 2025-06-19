@@ -28,7 +28,7 @@ class CurrencyConverter():
                 self.amount = float(input[0])
                 self.from_currency = str(input[1])
                 self.to_currency = str(input[2])
-                self.converter(self.amount, self.from_currency.lower(), self.to_currency)
+                self.converter(self.amount, self.from_currency.lower(), self.to_currency.lower())
             # Exception
             except ValueError as e:
                 print("ERROR: Incorrect data types.")
